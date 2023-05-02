@@ -59,9 +59,9 @@ public enum SolarSystem {
 
         for (SolarSystem planet: SolarSystem.values()) {
 
-            spaceFromSun += planet.spaceFromPreviousPlanet + spaceFromFirstPlanetToSun;
+            spaceFromSun += planet.spaceFromPreviousPlanet;
         }
-        return spaceFromSun;
+        return spaceFromSun+spaceFromFirstPlanetToSun;
     }
 }
 

@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Радіус планети: "+ planet3.getRadius());
         System.out.println("Наступна планета: " + planet3.getPreviousPlanet());
         System.out.println("Наступна планета: " + planet3.getNextPlanet());
-        System.out.println("Відстань від Neptune до Сонця: "+ planet3.getSpaceFromSun() + " млн.км");
+        System.out.println("Відстань від Neptune до Сонця: "+ planet8.getSpaceFromSun() + " млн.км");
     }
 
 
